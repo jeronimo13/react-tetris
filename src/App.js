@@ -35,13 +35,13 @@ class App extends Component {
 
   render() {
     const height = Math.floor(
-      (this.state.height - this.state.height * 0.4) / 18
+      (this.state.height - this.state.height * 0.45) / 18
     );
     const width = Math.floor(this.state.width / 18);
     const size = width >= height ? height : width;
     return (
       <div className="App">
-        <Container tileSize={size} lines={18} lineLength={12} />
+        <Container tileSize={size} lines={21} lineLength={12} />
       </div>
     );
   }
