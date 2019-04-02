@@ -4,9 +4,13 @@ The idea was to create a fully featured tetris using react.
 I could handle myself and added a couple of dependencies to support graphql request to store data, cookie management and material ui for nice buttons.
 
 Features:
-- keyboard support as well as on screen buttons
+- keyboard support as well as on-screen buttons
 - responsive, mobile and desktop ready
 - save your score and compete with others
+
+Todo:
+- Main container must be split into different components
+- new tiles should appear with diferrent rotations
 
 PRs are welcomed.
 
