@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+}
+
+.controls button {
+  /* background-color: yellow; */
+  /* color: black */
+}
+
+.controls button {
+  border-radius: 100%;
+  border: 1px solid black;
+  padding: 0;
+}
+
+.x-scale {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.controls .position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls .position button {
+  min-width: 50%;
+  min-height: 100%;
+}
+
+.controls .piece {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
